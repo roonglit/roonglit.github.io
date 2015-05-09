@@ -1,0 +1,71 @@
+/* Regulars */
+body {
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  color: #444;
+  letter-spacing: 2px;
+}
+a,a:active
+{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Footer */
+.footer_logo {
+  opacity: 0.5;
+}
+.wide_callaction {
+  width: 100%;
+  padding: 25px 0;
+  text-align: center;
+  border-bottom: solid 0px #414149;
+  font-size: 14px;
+  color: #FFF;
+  background: #37373F;
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+#ticker {
+  cursor: e-resize;
+  background: url('../images/twitter_32px.png') left center no-repeat;
+  padding-left: 35px;
+}
+.wide_callaction #ticker a {
+  color: #FFF;
+  font-style: italic;
+  font-family: "Merriweather";
+}
+footer {
+  background: #28282E;
+  padding: 45px 0;
+  height: auto;
+}
+.footertag {
+  font-family: "Merriweather";
+  font-size: 400;
+  color: #656568;
+  font-size: 14px;
+  letter-spacing: auto;
+}
+.copytext {
+  padding-top: 25px;
+}

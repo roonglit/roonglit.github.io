@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "0.0.0",
+  "homepage": "https://github.com/roonglit/roonglit.github.io",
+  "authors": [
+    "Roonglit Chareonsupkul <roonglit@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

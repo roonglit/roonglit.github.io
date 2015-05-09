@@ -3,6 +3,13 @@
 source: src
 destination: build
 
+assets: 
+  sources: 
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendors/components
+
 # Site settings
 title: Tripler | Custom Web Applications
 email: info@tripler.co.th
