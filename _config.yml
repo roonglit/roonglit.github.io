@@ -1,5 +1,12 @@
+
+# Structure configuration
 source: src
 destination: build
+
+# Site settings
+title: Tripler | Custom Web Applications
+email: info@tripler.co.th
+description: Custom web and mobile application development
 
 # Build settings
 markdown: kramdown
