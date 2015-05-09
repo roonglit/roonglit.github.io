@@ -61,6 +61,7 @@ GEM
       slim
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    json (1.8.2)
     kramdown (1.7.0)
     liquid (2.6.2)
     listen (2.10.0)
@@ -99,13 +100,18 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
+    uglifier (2.7.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  coffee-script
   jekyll
   jekyll-assets
   jekyll-slim
   slim!
+  uglifier
