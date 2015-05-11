@@ -1,3 +1,6 @@
+
+###################
+# Page Preloader
 $(window).load () ->
   if ($(window).width() < 240) 
     $("#loader").hide()
@@ -7,7 +10,10 @@ $(window).load () ->
     $("#loader").delay(1000).fadeOut()
     $(".mask").delay(1000).fadeOut("slow")
     $(".preload-logo").delay(1000).fadeOut("slow")
+# End Page preloader
+###################
 
+###################
 # Viewport Adjuster
 viewportHeight = $(window).height()
 $('.splash-section, .autoheight').css('height',viewportHeight)
@@ -25,3 +31,15 @@ $('.vertical-center-quart').css('padding-top' , top_margin_quart)
 $('.vertical-center-quart-mar').css('margin-top' , top_margin_quart)
 # uncomment the following if ithe element to be centered is an image
 $('.vertical-center-img').css( 'margin-top' , top_margin)
+# End Viewport Adjuster
+###################
+
+###################
+# Sticky Nav
+$(window).scroll () ->
+  if $('.main_navigation').offset().top > 50
+    $('.main_navigation').addClass 'stuck'
+  else
+    $('.main_navigation').removeClass 'stuck'
+# End Sticky Nav
+###################
