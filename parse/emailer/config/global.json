@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Tripler": {
+      "applicationId": "Mx6Ohx8bRrikzKD0zOC8gnfaWbj7uNMcosRyYyHi",
+      "masterKey": "n8njM9wGGjIkSFulo44xcMw1f7g8nLFM6O6gjW1v"
+    },
+    "_default": {
+      "link": "Tripler"
+    }
+  }
+}
