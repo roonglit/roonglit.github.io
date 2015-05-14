@@ -19,15 +19,15 @@ section#contact.common-section.grey-section
         #fname.alert-error.error.color-bg Name cannot be left blank!
         #fmail.alert-error.error.color-bg Valid email address required!
         #fmsg.alert-error.error.color-bg Message cannot be left blank
-        #success.alert-error.success.color-bg Your message sent sucessfully!
+        #success.alert-error.success.color-bg Your message sent sucessfully! We'll be in touch shortly.
         #failure.alert-error.failure.color-bg Oops! Something went wrong! Please try again.
-        form#myForm.rr_contactform action="sendmail.php"
+        form#messageForm.rr_contactform
           div
-            input#name.frm_full.wow.fadeInDown type="text" name="name" data-wow-delay=".5s" placeholder="Your Name"
+            input#message-name.frm_full.wow.fadeInDown type="text" name="name" data-wow-delay=".5s" placeholder="Your Name"
           div
-            input#emailfrm_left.wow.fadeInLeft type="email" name="email" data-wow-delay=".5s"  placeholder="Email Address"
-            input#number.frm_right.wow.fadeInRight type="text" name="phone" data-wow-delay=".5s" placeholder="Contact Number"
+            input#message-email.frm_left.wow.fadeInLeft type="email" name="email" data-wow-delay=".5s"  placeholder="Email Address"
+            input#message-number.frm_right.wow.fadeInRight type="text" name="phone" data-wow-delay=".5s" placeholder="Contact Number"
           div
-            textarea#message.frm_full.wow.fadeInUp name="message" rows="5" data-wow-delay=".5s" placeholder="Leave a message for us"
+            textarea#message-content.frm_full.wow.fadeInUp name="message" rows="5" data-wow-delay=".5s" placeholder="Leave a message for us"
           div
-            input#submit.wow.fadeInUp type="submit" name="send" value="SEND" data-wow-delay=".5s"
+            input#send-message.wow.fadeInUp type="submit" name="send" value="SEND" data-wow-delay=".5s"

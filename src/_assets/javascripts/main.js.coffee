@@ -69,9 +69,61 @@ $ ->
 
   ###################
   # Contact Form
-  $(".error").hide();
-  $(".failure").hide();
-  $(".success").hide();
+  $(".error").hide()
+  $(".failure").hide()
+  $(".success").hide()
+
+  isValidEmailAddress = (email) ->
+    pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i)
+    pattern.test(email)
+
+  $('#messageForm input').click (evt) ->
+    $('.error').fadeOut()
+
+  $('#send-message').click (evt) ->
+    evt.stopPropagation()
+    evt.preventDefault()
+    $(".error").hide()
+    $(".failure").hide()
+    $(".success").hide()
+    name = $.trim($('#message-name').val())
+
+    if name == ''
+      $('#fname').fadeIn('slow')
+      $('#message-name').focus()
+      return false
+
+    email = $.trim($('#message-email').val())
+
+    if (email == '') || !isValidEmailAddress(email)
+      $('#fmail').fadeIn('slow')
+      $('#message-email').focus()
+      return false
+
+    number = $('#message-number').val()
+
+    message = $('#message-content').val()
+
+    if message == ''
+      $('#fmsg').fadeIn('slow')
+      $('#message-content').focus()
+      return false
+
+    Parse.initialize("Mx6Ohx8bRrikzKD0zOC8gnfaWbj7uNMcosRyYyHi", "klHtk2yR6CZUpg2Pns90NPMQpyliv6W2URbOB2qV")
+
+    data = 
+      name: name
+      email: email
+      number: number
+      message: message
+
+    Parse.Cloud.run('sendEmail', data, 
+      success: (object) ->
+        $('#success').show();
+    ,
+      error: (object, error) ->
+        $('#failure').show();
+    )
   # End Contact Form
   ###################
 

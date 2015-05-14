@@ -4,13 +4,13 @@ Parse.Cloud.define("sendEmail", function(request, response) {
 
   var name = request.params.name;
   var email = request.params.email;
-  var subject = request.params.subject;
+  var number = request.params.number;
   var message = request.params.message;
 
   Mandrill.sendEmail({
     message: {
       text: message,
-      subject: subject,
+      subject: 'new message with contact number : ' + number,
       from_email: email,
       from_name: name,
       to: [
