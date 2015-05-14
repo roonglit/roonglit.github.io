@@ -120,6 +120,7 @@ $ ->
     Parse.Cloud.run('sendEmail', data, 
       success: (object) ->
         $('#success').show();
+        $('#message-content').val('')
     ,
       error: (object, error) ->
         $('#failure').show();
