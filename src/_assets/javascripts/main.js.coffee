@@ -68,6 +68,14 @@ $ ->
   ###################
 
   ###################
+  # Contact Form
+  $(".error").hide();
+  $(".failure").hide();
+  $(".success").hide();
+  # End Contact Form
+  ###################
+
+  ###################
   # Intro Carousel
   sync1 = $('#sync1')
   sync2 = $('#sync2')
