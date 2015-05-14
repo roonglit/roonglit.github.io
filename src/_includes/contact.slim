@@ -1,0 +1,33 @@
+section#contact.common-section.grey-section
+  article.container
+    .row
+      .col-md-3
+        h1.adj-mar-top-50.main-head.text-left.wow.fadeInRight data-wow-delay=".5s" Contact
+        p.sub-heading.text-left.wow.fadeInRight data-wow-delay=".5s" Let's chat about your next project. We'll respond within one business day to set up a call.
+        span.head-cube.fl-left.wow.fadeInUp data-wow-delay=".5s"
+        .clears
+        .text-left.mar-top-30.address.wow.fadeInRight data-wow-delay=".5s"
+          strong Tripler Co., Ltd. <br />
+          | 1193 Rama 9 Rd. <br />
+            Suanluang <br />
+            Bangkok <br />
+            10250 <br />
+        .text-left.call.wow.fadeInRight data-wow-delay=".5s" 02 1209643
+        .text-left.mail.wow.fadeInRight data-wow-delay=".5s" info@tripler.co.th
+
+      .col-md-8.col-md-offset-1
+        #fname.alert-error.error.color-bg Name cannot be left blank!
+        #fmail.alert-error.error.color-bg Valid email address required!
+        #fmsg.alert-error.error.color-bg Message cannot be left blank
+        #success.alert-error.success.color-bg Your message sent sucessfully!
+        #failure.alert-error.failure.color-bg Oops! Something went wrong! Please try again.
+        form#myForm.rr_contactform action="sendmail.php" enctype="multipart/form-data" method="post"
+          div
+            input#name.frm_full.wow.fadeInDown type="text" name="name" data-wow-delay=".5s" placeholder="Your Name"
+          div
+            input#emailfrm_left.wow.fadeInLeft type="email" name="email" data-wow-delay=".5s"  placeholder="Email Address"
+            input#number.frm_right.wow.fadeInRight type="text" name="phone" data-wow-delay=".5s" placeholder="Contact Number"
+          div
+            textarea#message.frm_full.wow.fadeInUp name="message" rows="5" data-wow-delay=".5s" placeholder="Leave a message for us"
+          div
+            input#submit.wow.fadeInUp type="submit" name="send" value="SEND" data-wow-delay=".5s"
