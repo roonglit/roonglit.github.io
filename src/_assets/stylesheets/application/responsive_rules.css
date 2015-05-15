@@ -4,11 +4,11 @@
 responsive-rules.css
 
 1 - width 1024
-2 - width 768 
-3 - width 600 
+2 - width 768
+3 - width 600
 4 - width 480
-5 - width 360 
-6 - width 320 
+5 - width 360
+6 - width 320
 
 */
 
@@ -16,11 +16,11 @@ responsive-rules.css
 
 /*---------------------------------width 1024 started-------------------------------------*/
 @media screen and (min-width: 1023px) and (max-width: 1170px) {
-  .box 
+  .box
   {
     width: 50%;
   }
-  .wide 
+  .wide
   {
     width: 50%;
   }
@@ -28,39 +28,39 @@ responsive-rules.css
 }
 /*---------------------------------width 768 started-------------------------------------*/
 @media screen and (min-width: 990px) and (max-width: 1023px) {
-  .box 
+  .box
   {
     width: 50%;
   }
-  .wide 
+  .wide
   {
     width: 50%;
   }
   /*-----home section content-----*/
-.hero-content h1 
-  {  
-   font-size: 55px; 
+.hero-content h1
+  {
+   font-size: 55px;
   }
-  .hero-content p 
+  .hero-content p
   {
     font-size: 14px;
     line-height: 28px;
   }
-  .home-button 
+  .home-button
   {
     padding: 10px 10px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
-   .hero-content-sl h1 
+   .hero-content-sl h1
   {
-    font-size: 55px;       
+    font-size: 55px;
   }
-  .hero-content-sl h2 
+  .hero-content-sl h2
   {
     letter-spacing: 5px;
     font-size: 28px;
     line-height: 45px;
-  } 
+  }
   /*------main head sections------*/
   .main-head
   {
@@ -72,56 +72,56 @@ responsive-rules.css
 @media screen and (min-width: 768px) and (max-width: 989px) {
 
   /*-----home section content-----*/
-.hero-content h1 
-  {  
-   font-size: 55px; 
+.hero-content h1
+  {
+   font-size: 55px;
   }
-  .hero-content p 
+  .hero-content p
   {
     font-size: 14px;
     line-height: 28px;
   }
-  .home-button 
+  .home-button
   {
     padding: 10px 10px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
-   .hero-content-sl h1 
+   .hero-content-sl h1
   {
-    font-size: 55px;       
+    font-size: 55px;
   }
-  .hero-content-sl h4 
+  .hero-content-sl h4
   {
     /*font-size: 24px;*/
   }
-  .hero-content-sl h2 
+  .hero-content-sl h2
   {
     letter-spacing: 5px;
     font-size: 28px;
     line-height: 45px;
-  } 
+  }
   /*------main head sections------*/
   .main-head
   {
     font-weight: 600;
     font-size: 35px;
   }
-  .head-cube 
+  .head-cube
   {
     margin-bottom: 20px;
-    background: #EF4035;
+    background: #f7931d;
   }
   .header-main
   {
    padding-top: 50px;
   }
   /*----service section-----*/
-  /*.serv_item 
+  /*.serv_item
   {
     width: 33%;
   }*/
   /*------ team section-------*/
-  .team_member 
+  .team_member
   {
     width: 50%;
   }
@@ -131,7 +131,7 @@ responsive-rules.css
     padding-bottom: 50px;
   }
   /*----portfolio-----*/
-  .filter 
+  .filter
   {
     padding: 5px 5px;
     margin-right: 5px;
@@ -141,20 +141,20 @@ responsive-rules.css
     display: inline-block;
     margin-bottom: 10px;
   }
-  .box 
+  .box
   {
     width: 50%;
     height: 300px;
   }
-  .wide 
+  .wide
   {
     width: 100%;
   }
-  .big 
+  .big
   {
     height: 400px;
   }
-  .big_button 
+  .big_button
   {
     width: 50%;
     padding: 20px;
@@ -162,12 +162,12 @@ responsive-rules.css
     margin-top: 30px;
   }
   /*-----Testimonial Text-----*/
-  .testimonial_text 
+  .testimonial_text
   {
     font-size: 16px;
     line-height: 1.4em;
   }
-  .testimonial_author 
+  .testimonial_author
   {
     font-size: 18px;
   }
@@ -203,13 +203,13 @@ responsive-rules.css
 /*------------------------600 optimization started-------------------------------------------*/
 @media screen and (min-width: 600px) and (max-width: 767px){
 
- 
+
 /*-----home section content-----*/
-.hero-content h1 
-  {  
-   font-size: 55px; 
+.hero-content h1
+  {
+   font-size: 55px;
   }
-  .hero-content p 
+  .hero-content p
   {
     font-size: 14px;
     line-height: 28px;
@@ -218,48 +218,48 @@ responsive-rules.css
   {
     width: 100%;
     padding-left: 10%;
-  }    
-  .home-button 
+  }
+  .home-button
   {
     padding: 10px 10px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
-   .hero-content-sl h1 
+   .hero-content-sl h1
   {
-    font-size: 32px;       
+    font-size: 32px;
   }
-  .hero-content-sl h4 
+  .hero-content-sl h4
   {
     /*font-size: 24px;*/
   }
-  .hero-content-sl h2 
+  .hero-content-sl h2
   {
     letter-spacing: 1px;
     font-size: 22px;
     line-height: 30px;
-  } 
+  }
   /*------main head sections------*/
   .main-head
   {
     font-weight: 600;
     font-size: 35px;
   }
-  .head-cube 
+  .head-cube
   {
     margin-bottom: 20px;
-    background: #EF4035;
+    background: #f7931d;
   }
   .header-main
   {
    padding-top: 50px;
   }
   /*----service section-----*/
-  .serv_item 
+  .serv_item
   {
     width: 100%;
   }
   /*------ team section-------*/
-  .team_member 
+  .team_member
   {
     width: 50%;
   }
@@ -276,9 +276,9 @@ responsive-rules.css
   {
     right: 15px;
   }
-  
+
   /*----portfolio-----*/
-  .filter 
+  .filter
   {
     padding: 5px 5px;
     margin-right: 5px;
@@ -290,22 +290,22 @@ responsive-rules.css
   }
   .filter a
   {
-    
+
   }
-  .box 
+  .box
   {
     width: 50%;
     height: 300px;
   }
-  .wide 
+  .wide
   {
     width: 100%;
   }
-  .big 
+  .big
   {
     height: 400px;
   }
-  .big_button 
+  .big_button
   {
     width: 50%;
     padding: 20px;
@@ -313,12 +313,12 @@ responsive-rules.css
     margin-top: 30px;
   }
   /*-----Testimonial Text-----*/
-  .testimonial_text 
+  .testimonial_text
   {
     font-size: 16px;
     line-height: 1.4em;
   }
-  .testimonial_author 
+  .testimonial_author
   {
     font-size: 18px;
   }
@@ -348,26 +348,26 @@ responsive-rules.css
  /*--------------------------- width 480 optimization started------------------------------------*/
 @media screen and (min-width: 480px) and (max-width: 599px) {
   /*-----common sections-----*/
-  body 
+  body
   {
 
     font-size: 12px;
   }
-  p 
+  p
   {
     font-size: 14px;
     line-height: 30px;
   }
-  h1, h2, h3, h4, h5, h6 
+  h1, h2, h3, h4, h5, h6
   {
     font-weight: 600;
   }
 /*-----home section content-----*/
-.hero-content h1 
-  {  
-   font-size: 50px; 
+.hero-content h1
+  {
+   font-size: 50px;
   }
-  .hero-content p 
+  .hero-content p
   {
     font-size: 14px;
     line-height: 28px;
@@ -376,48 +376,48 @@ responsive-rules.css
   {
     width: 100%;
     padding-left: 10%;
-  }  
-  .home-button 
+  }
+  .home-button
   {
     padding: 10px 10px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
-  .hero-content-sl h1 
+  .hero-content-sl h1
   {
-    font-size: 26px;       
+    font-size: 26px;
   }
-  .hero-content-sl h4 
+  .hero-content-sl h4
   {
     font-size: 20px;
   }
-  .hero-content-sl h2 
+  .hero-content-sl h2
   {
     letter-spacing: 1px;
     font-size: 20px;
     line-height: 30px;
-  }  
+  }
   /*------main head sections------*/
   .main-head
   {
     font-weight: 600;
     font-size: 35px;
   }
-  .head-cube 
+  .head-cube
   {
     margin-bottom: 20px;
-    background: #EF4035;
+    background: #f7931d;
   }
   .header-main
   {
    padding-top: 50px;
   }
   /*----service section-----*/
-  .serv_item 
+  .serv_item
   {
     width: 100%;
   }
   /*------ team section-------*/
-  .team_member 
+  .team_member
   {
     width: 100%;
   }
@@ -427,7 +427,7 @@ responsive-rules.css
     padding-bottom: 50px;
   }
   /*----portfolio-----*/
-  .filter 
+  .filter
   {
     padding: 5px 5px;
     margin-right: 5px;
@@ -439,22 +439,22 @@ responsive-rules.css
   }
   .filter a
   {
-    
+
   }
-  .box 
+  .box
   {
     width: 100%;
     height: 300px;
   }
-  .wide 
+  .wide
   {
     width: 100%;
   }
-  .big 
+  .big
   {
     height: 400px;
   }
-  .big_button 
+  .big_button
   {
     width: 50%;
     padding: 20px;
@@ -462,12 +462,12 @@ responsive-rules.css
     margin-top: 30px;
   }
   /*-----Testimonial Text-----*/
-  .testimonial_text 
+  .testimonial_text
   {
     font-size: 16px;
     line-height: 1.4em;
   }
-  .testimonial_author 
+  .testimonial_author
   {
     font-size: 18px;
   }
@@ -511,34 +511,34 @@ responsive-rules.css
 
 @media screen and (min-width: 360px) and (max-width: 479px) {
   /*-----common sections-----*/
-  body 
+  body
   {
 
     font-size: 12px;
   }
-  p 
+  p
   {
     font-size: 14px;
     line-height: 30px;
   }
-  h1, h2, h3, h4, h5, h6 
+  h1, h2, h3, h4, h5, h6
   {
     font-weight: 600;
   }
 /*-----home section content-----*/
-.hero-content h1 
-  {  
-   font-size: 40px; 
+.hero-content h1
+  {
+   font-size: 40px;
   }
-  .hero-content p 
+  .hero-content p
   {
     font-size: 14px;
     line-height: 28px;
   }
-  .home-button 
+  .home-button
   {
     padding: 10px 10px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
   .hero_right
   {
@@ -547,42 +547,42 @@ responsive-rules.css
   }
 
 
-  .hero-content-sl h1 
+  .hero-content-sl h1
   {
-    font-size: 22px;       
+    font-size: 22px;
   }
-  .hero-content-sl h4 
+  .hero-content-sl h4
   {
     font-size: 16px;
   }
-  .hero-content-sl h2 
+  .hero-content-sl h2
   {
     letter-spacing: 1px;
     font-size: 16px;
     line-height: 30px;
-  }  
+  }
   /*------main head sections------*/
   .main-head
   {
     font-weight: 600;
     font-size: 30px;
   }
-  .head-cube 
+  .head-cube
   {
     margin-bottom: 20px;
-    background: #EF4035;
+    background: #f7931d;
   }
   .header-main
   {
    padding-top: 50px;
   }
   /*----service section-----*/
-  .serv_item 
+  .serv_item
   {
     width: 100%;
   }
   /*------ team section-------*/
-  .team_member 
+  .team_member
   {
     width: 100%;
   }
@@ -595,7 +595,7 @@ responsive-rules.css
         clear: both;
     }
   /*----portfolio-----*/
-  .filter 
+  .filter
   {
     padding: 5px 5px;
     margin-right: 5px;
@@ -607,22 +607,22 @@ responsive-rules.css
   }
   .filter a
   {
-    
+
   }
-  .box 
+  .box
   {
     width: 100%;
     height: 300px;
   }
-  .wide 
+  .wide
   {
     width: 100%;
   }
-  .big 
+  .big
   {
     height: 400px;
   }
-  .big_button 
+  .big_button
   {
     width: 50%;
     padding: 20px;
@@ -630,12 +630,12 @@ responsive-rules.css
     margin-top: 30px;
   }
   /*-----Testimonial Text-----*/
-  .testimonial_text 
+  .testimonial_text
   {
     font-size: 16px;
     line-height: 1.4em;
   }
-  .testimonial_author 
+  .testimonial_author
   {
     font-size: 18px;
   }
@@ -679,26 +679,26 @@ responsive-rules.css
 /*--------------------------max width  320 optimisation started------------------------------------*/
 @media screen and (min-width: 320px) and (max-width: 359px) {
 /*-----common sections-----*/
-  body 
+  body
   {
 
     font-size: 12px;
   }
-  p 
+  p
   {
     font-size: 14px;
     line-height: 30px;
   }
-  h1, h2, h3, h4, h5, h6 
+  h1, h2, h3, h4, h5, h6
   {
     font-weight: 600;
   }
 /*-----home section content-----*/
-.hero-content h1 
-  {  
-   font-size: 35px; 
+.hero-content h1
+  {
+   font-size: 35px;
   }
-  .hero-content p 
+  .hero-content p
   {
     font-size: 12px;
     line-height: 22px;
@@ -710,47 +710,47 @@ responsive-rules.css
     padding-left: 10%;
   }
 
-  .home-button 
+  .home-button
   {
     padding: 10px 10px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
-  .hero-content-sl h1 
+  .hero-content-sl h1
   {
-    font-size: 22px;       
+    font-size: 22px;
   }
-  .hero-content-sl h4 
+  .hero-content-sl h4
   {
     font-size: 16px;
   }
-  .hero-content-sl h2 
+  .hero-content-sl h2
   {
     letter-spacing: 1px;
     font-size: 16px;
     line-height: 30px;
-  }  
+  }
   /*------main head sections------*/
   .main-head
   {
     font-weight: 600;
     font-size: 30px;
   }
-  .head-cube 
+  .head-cube
   {
     margin-bottom: 20px;
-    background: #EF4035;
+    background: #f7931d;
   }
   .header-main
   {
    padding-top: 50px;
   }
   /*----service section-----*/
-  .serv_item 
+  .serv_item
   {
     width: 100%;
   }
   /*------ team section-------*/
-  .team_member 
+  .team_member
   {
     width: 100%;
   }
@@ -764,7 +764,7 @@ responsive-rules.css
         clear: both;
     }
   /*----portfolio-----*/
-  .filter 
+  .filter
   {
     padding: 5px 5px;
     margin-right: 5px;
@@ -776,22 +776,22 @@ responsive-rules.css
   }
   .filter a
   {
-    
+
   }
-  .box 
+  .box
   {
     width: 100%;
     height: 300px;
   }
-  .wide 
+  .wide
   {
     width: 100%;
   }
-  .big 
+  .big
   {
     height: 400px;
   }
-  .big_button 
+  .big_button
   {
     width: 50%;
     padding: 20px;
@@ -799,12 +799,12 @@ responsive-rules.css
     margin-top: 30px;
   }
   /*-----Testimonial Text-----*/
-  .testimonial_text 
+  .testimonial_text
   {
     font-size: 16px;
     line-height: 1.4em;
   }
-  .testimonial_author 
+  .testimonial_author
   {
     font-size: 18px;
   }
